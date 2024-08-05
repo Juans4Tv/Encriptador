@@ -87,6 +87,7 @@ gap: 24px;
 
 
 .textDescriptar{
+    position: relative;
     width: 25rem;
     height: 59rem;
     box-sizing: border-box;
@@ -138,6 +139,20 @@ gap: 24px;
     background-color: white;
 }
 
+.fin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fuente-Inter);
+    font-size: 1rem;
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+}
+.Git{
+    width: 2rem;
+    height: 2rem;
+}
+
 
 
 
@@ -162,6 +177,12 @@ gap: 24px;
 
         display: none;
     }
+    .Botoncopiar{
+        position: relative;
+        top: auto;
+        left: 11rem;
+
+    }
 
 }
 @media(max-width: 600px){
@@ -179,6 +200,12 @@ gap: 24px;
     .overlay{
         text-align: center;
         left: 2rem;
+    }
+    .Botoncopiar{
+        top: auto;
+        left: auto;
+        right: auto;
+    
     }
 }
 
