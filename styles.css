@@ -166,6 +166,8 @@ gap: 24px;
     .body_Section{
         flex-direction: column;
         gap: 80px;
+        padding: 0%;
+        padding-bottom: 2%;
     }
     .textDescriptar{
         width: 43rem;
